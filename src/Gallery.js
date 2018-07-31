@@ -184,7 +184,7 @@ class Gallery extends Component {
                 var pixelsToRemove = cutoff[i];
                 item = row[i];
                 item.marginLeft = -Math.abs(Math.floor(pixelsToRemove / 2));
-                item.vwidth = item.scaletwidth - pixelsToRemove;
+                item.vwidth = item.scaletwidth - pixelsToRemove - 1;
             }
         }
         else {
